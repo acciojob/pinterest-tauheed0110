@@ -1,16 +1,48 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
+    <style>
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+        }
+        img{
+            height: 400px;
+            width: 600px;
+            object-fit: cover;
+        }
+        .info{
+            width: 400px;
+            padding: 10px;
+        }
+        button{
+            height: 40px;
+            width: 200px;
+            background-color: red;
+            color: white;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="hero">
+        <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image loading..">
+        <div class="info">
+            <h3>Welcome to my Printerest Clone</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum in aliquid dicta expedita error, doloribus, modi reiciendis sint perferendis nam officiis, nostrum sequi consequuntur? Modi eos consectetur fugiat voluptatum voluptate!</p>
+            <button>Explore Now</button>
+        </div>
+    </div>
 </body>
 
 </html>
